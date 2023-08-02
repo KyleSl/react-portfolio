@@ -10,7 +10,7 @@ export default function AboutMe () {
                 <div className="col-8 p-2">
                     <h3 className='text-white'>Kyle Slaughter</h3>
                     <hr className='text-white m-1' />
-                    <p className='text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quos iure soluta explicabo quod quis iste omnis. Neque veniam omnis distinctio explicabo, libero, quisquam accusantium excepturi eaque modi voluptates quas corporis? Quidem laboriosam adipisci iusto. Quam cupiditate, odio animi nemo saepe iste eligendi adipisci odit quod impedit, necessitatibus natus nulla.</p>
+                    <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium molestias dolorem, dolorum temporibus veniam, nostrum error enim voluptatum eaque reprehenderit quia facere quaerat iure illo ut numquam veritatis. Hic, qui repellat? Saepe corporis beatae nemo voluptatibus assumenda repudiandae fugit est vero consequuntur nesciunt, animi dolore in possimus aliquid facilis doloremque iste natus facere. Reiciendis quidem porro voluptatibus animi. Ea, exercitationem dolorum inventore quaerat tempora culpa suscipit soluta repellendus harum excepturi qui cum, illo, totam ratione quae vitae eaque veniam eligendi. Iure, accusamus vel nostrum, aliquid explicabo voluptatem qui dignissimos quae deleniti itaque earum sint tempore expedita molestiae facere voluptatum.</p>
                 </div>
             </div>
         </div>
