@@ -10,7 +10,7 @@ export default function AboutMe () {
                 <div className="col-8 p-2">
                     <h3 className='text-white'>Kyle Slaughter</h3>
                     <hr className='text-white m-1' />
-                    <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad accusantium molestias dolorem, dolorum temporibus veniam, nostrum error enim voluptatum eaque reprehenderit quia facere quaerat iure illo ut numquam veritatis. Hic, qui repellat? Saepe corporis beatae nemo voluptatibus assumenda repudiandae fugit est vero consequuntur nesciunt, animi dolore in possimus aliquid facilis doloremque iste natus facere. Reiciendis quidem porro voluptatibus animi. Ea, exercitationem dolorum inventore quaerat tempora culpa suscipit soluta repellendus harum excepturi qui cum, illo, totam ratione quae vitae eaque veniam eligendi. Iure, accusamus vel nostrum, aliquid explicabo voluptatem qui dignissimos quae deleniti itaque earum sint tempore expedita molestiae facere voluptatum.</p>
+                    <p className='text-white'>My name is Kyle Slaughter. I am 19 years old and a begginer level web developer. I specialize in back-end logical things like databases and query routes, but I can do some basic front-end stuff. For example, I built this whole website. I graduated from a top 3 highschool in Colorado with a 3.97 GPA. I got a 1470 on the SAT but just couldn't do college. I spent a few months doing an online bootcamp through Denver University and it taught me mostly everything I know about web development. I would say my strengths are how fast I learn and how quickly I can code.</p>
                 </div>
             </div>
         </div>

@@ -49,7 +49,7 @@ export default function Portfolio () {
         <hr className="text-white m-1" />
         <div className="row row-cols-3 mx-auto">
             {cardData.map( (item) => 
-                <div className="card col p-0 border-3">
+                <div className="card col p-0 border-3" key={item.title}>
                 <img src={item.image} className="card-img-top" alt="project-image" />
                 <div className="card-body">
                   <h5 className="card-title">{item.title}</h5>
