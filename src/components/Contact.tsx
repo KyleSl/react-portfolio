@@ -1,5 +1,6 @@
 import React from 'react'
-const ContactForm = () => {
+
+const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
   const onSubmit = (e) => {
     e.preventDefault()
@@ -41,4 +42,4 @@ const ContactForm = () => {
     </div>
   )
 }
-export default ContactForm;
+export default Contact;
