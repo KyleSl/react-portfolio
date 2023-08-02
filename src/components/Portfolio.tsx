@@ -42,7 +42,7 @@ export default function Portfolio () {
         title: 'kidzDirect',
         text: 'First full stack web app. I handled a lot of the backend, mostly the schemas and resolvers',
         link: 'https://github.com/Walter-Conwell/parentSchedulingApp'
-    }]
+    }];
     return (
         <>
         <h2 className="text-white p-1 m-1 mx-3">Portfolio</h2>
