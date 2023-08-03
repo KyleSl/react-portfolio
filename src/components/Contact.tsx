@@ -2,21 +2,25 @@ import React from 'react'
 
 const Contact = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
-  const onSubmit = (e) => {
+  const handleMessage = (e: React.SyntheticEvent) => {
     e.preventDefault()
-    setFormStatus('Submitting...')
-    const { name, email, message } = e.target.elements
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
+    setFormStatus('Submitted')
+    const target = e.target as typeof e.target & {
+      name: { value: string };
+      email: { value: string };
+      message: { value: string };
     }
-    console.log(conFom)
+    const message = {
+      name: target.name.value,
+      email: target.email.value,
+      text: target.message.value
+    }
+    console.log(message);
   }
   return (
     <div className="container mt-5">
       <h2 className="text-white mb-3">Message Me</h2>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={handleMessage}>
         <div className="mb-3">
           <label className="text-white form-label" htmlFor="name">
             Name
