@@ -1,7 +1,11 @@
-
+import resume from "../assets/resume_2.pdf"
 
 export default function Resume () {
     return (
-        <p className="text-white text-center mt-2">I don't have a resume yet. Coming soon!</p>
+        <>
+            <center>    
+                <embed src={resume} width="1000" height="1000" type="application/pdf"></embed>
+            </center>
+        </>
     );
 }
