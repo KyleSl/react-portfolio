@@ -1,4 +1,4 @@
-import resume from "../assets/resume_2.pdf"
+import resume from "../assets/KSresume.pdf"
 
 export default function Resume () {
     return (
